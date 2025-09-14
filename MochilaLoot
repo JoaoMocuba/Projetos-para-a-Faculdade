@@ -1,0 +1,23 @@
+/*Sistema de inventário (mochila de loot).*/
+/*Cria uma mochila com capacidade de itens que possam ser carregados, simulando um jogo de sobrevivencia.*/
+
+#include <stdio.h>
+#include <stdlib.h>  
+#include <string.h>   
+
+#define MAX_ITENS 10
+#define MAX_NOME  30
+#define MAX_TIPO  20
+#define MAX_PESO 60.0f /*Capacidade maxima de peso que pode ser carregado*/
+
+ typedef struct {
+    char nome[MAX_NOME];
+    char tipo[MAX_TIPO];
+    float peso; /* peso por item */
+    int quantidade;
+} Item;
+
+Item da mochila[MAX_ITENS];
+int quantidadedeItens = 0;
+float pesoAtualdaMochila = 0.0f; /*soma dos pesos dos itens*/
+
