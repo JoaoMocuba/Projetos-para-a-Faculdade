@@ -1,5 +1,5 @@
-/*Sistema de inventário (mochila de loot).*/
-/*Cria uma mochila com capacidade de itens que possam ser carregados, simulando um jogo de sobrevivencia.*/
+//Sistema de inventário (mochila de loot).
+//Cria uma mochila com capacidade de itens que possam ser carregados, simulando um jogo de sobrevivencia.
 
 #include <stdio.h>
 #include <stdlib.h>  
